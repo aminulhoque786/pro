@@ -1,0 +1,77 @@
+#talk{
+    background-color: black;
+    padding: 200px 0;
+}
+.top{
+   
+    padding: 10px 10px;
+}
+.top h4{
+    color: #fff;
+}
+.yah{
+    background-color: rgb(6, 6, 44);
+    padding: 20px;
+}
+.tio button{
+    background-color: blueviolet;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.uru{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    
+    column-gap: 10px;
+      padding-top: 150px;
+  }
+.utu{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    
+    column-gap: 10px;
+     
+  }
+  .uru a{
+    background-color: rgb(81, 81, 202);
+    color: #fff;
+      width:70px;
+      height: 70px;
+     display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid rgb(56, 3, 56);
+      border-radius: 50px;
+      font-size: 30px;
+  }
+  .utu a{
+    background-color: rgb(81, 81, 202);
+    color: #fff;
+      width:70px;
+      height: 70px;
+     display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid rgb(56, 3, 56);
+      border-radius: 50px;
+      font-size: 30px;
+  }
+  .uru a:hover{
+      color: rgb(19, 228, 158);
+      transition: .9s;
+      background-color: rgb(207, 35, 207);
+  }
+.uru h4{
+    color: #fff;
+}
+  .utu a:hover{
+      color: rgb(19, 228, 158);
+      transition: .9s;
+      background-color: rgb(207, 35, 207);
+  }
+.utu h4{
+    color: #fff;
+}

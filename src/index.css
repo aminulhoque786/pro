@@ -1,0 +1,112 @@
+@media(max-width:950px){
+  
+    
+    .menu a{
+      text-align: center;
+     
+     
+      
+  }
+
+  .navbar-nav a{
+      padding: 10px 0px;
+       
+    }
+    .navbar-nav{
+      column-gap: 30px;
+      color: white;
+  
+  }
+  .navbar-collapse {
+      text-align: center;
+      background-color: rgb(11, 172, 172);
+      padding: 10px 10px;
+     
+  }
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" viewBox%3D"0 0 30 30"%3E%3Cpath stroke%3D"rgba(255, 255, 255, 1)" stroke-width%3D"2" stroke-linecap%3D"round" stroke-miterlimit%3D"10" d%3D"M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+  }
+  
+  .hook{
+    padding-left: 50px;
+  }
+    .hook span {
+      font-size: 18px;
+    }
+
+    .about h6 {
+      padding-top: 40px;
+      width:320px;
+      font-size: 15px;
+    
+    }
+    .jitu{
+        padding:30px;
+    }
+    .hui button {
+        font-size: 16px;
+        margin-top: 30px;
+        padding: 16px 24px;
+    }
+    
+    #experience {
+      padding: 10px;
+    }
+    .raw h6 {
+        padding-top: 30px;
+        margin-left: 32px;
+        color: #ffffff;
+        width: 250px;
+      }
+      .tipe a {
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        padding: 9px;
+        font-size: 23px;
+        color: blueviolet;
+        font-weight: 479;
+      }
+      #price {
+        
+        padding: 20px;
+      }
+      #skill {
+        
+        padding: 10px;
+      }
+      .jugu h5 {
+        color: #fff;
+        width: 230px;
+        margin-left: 32px;
+      }
+      .high{
+        padding-top: 40px;
+      }
+      .high img {
+        width: 303px;
+      }
+      .uru {
+        display: inline-block;
+      }
+      .utu {
+        display: inline-block;
+        padding: 20px;
+        align-items: center;
+        column-gap: 10px;
+      }
+      .utu h4{
+        font-size: 18px;
+      }
+      .App span {
+       
+        font-size: 40px;
+    
+      }
+      .countElement {
+        font-size: 40px;
+    }
+    .time h1 {
+      font-size: 35px;
+        
+}
+}

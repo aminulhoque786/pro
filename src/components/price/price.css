@@ -1,0 +1,46 @@
+#price{
+    background-color: black;
+    padding: 100px;
+}
+.thumb a{
+    font-size: 50px;
+}
+.swipe{
+    padding: 10px 30px;
+    
+}
+
+.swife:hover{
+    background-color: rgb(124, 77, 124);
+    border-radius: 30px;
+    color: #fff;
+    transition: .9s;
+}
+.swipe:hover{
+    background-color: rgb(124, 77, 124);
+   color: #fff;
+   transition: .9s;
+   border-radius: 30px;
+   
+}
+.swife{
+    padding: 10px 30px;
+}
+.swipe h2 {
+   color: #fff;
+}
+.swipe h3{
+    color: rgb(95, 202, 8);
+}
+.swipe h5{
+    color: #fff;
+}
+.swife h2 {
+   color: #fff;
+}
+.swife h3{
+    color: rgb(95, 202, 8);
+}
+.swife h5{
+    color: #fff;
+}

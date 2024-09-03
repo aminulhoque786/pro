@@ -1,0 +1,86 @@
+#experience{
+    padding:200px 200px;
+    background-color: black;
+}
+.raw  h1{
+  font-family: "Oswald", sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 54px;
+}
+.gradient-text {
+    background: linear-gradient(to right, rgb(43, 8, 168), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .raw h6{
+    padding-top: 30px;
+        margin-left: 210px;
+        color: #ffffff;
+        width: 492px;
+    }
+    .app-container {
+        display: flex; /* Use flexbox to align items side by side */
+        justify-content: space-between; /* Space out the items */
+        padding: 20px;
+      }
+      
+      .content {
+        width: 60%; /* Width of the main content area */
+        margin-right: 20px;
+      }
+      
+      .accordion-container {
+        width: 35%; /* Width of the accordion */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      
+      .accordion-header {
+        padding: 10px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      .accordion-content {
+        transition: max-height 0.3s ease, opacity 0.3s ease;
+        max-height: 0;
+        overflow: hidden;
+        padding: 10px;
+        background-color: #fff;
+        box-sizing: border-box;
+        opacity: 0;
+      }
+      .huk{
+      
+        padding: 10px 10px;
+      }
+      .huk :hover{
+        background: linear-gradient(135deg, #08081f, #0909c2); 
+        transition: .9s;
+        cursor: pointer;
+      }
+      .dhur{
+        
+        padding-top: 50px;
+        color:#fff;
+    }
+    .dhur h4{
+        font-size: 30px ;
+        font-weight: 600;
+    }
+    .dhur h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .dhur a{
+          column-gap: 20px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+      }
+      

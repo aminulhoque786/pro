@@ -1,0 +1,159 @@
+#banner{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,20,84,1) 84%);
+padding: 200px 0;
+}
+.hook span {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Baskervville SC", serif;
+    font-weight: 800;
+}
+.about h6{
+    padding-top: 40px;
+    color: #fff;
+    width: 440px;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif
+}
+.hunk img:hover{
+
+border: 4px solid rgb(97, 13, 233);
+border-radius: 40px;
+cursor: pointer;
+
+transform: rotateZ(6deg);
+}
+
+.hunk img{
+    transition: .5s;
+    width:100%;
+    
+    border: 4px solid rgb(192, 174, 174);
+    border-radius: 40px;
+}
+.hui button {
+    color: #95e90e;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid purple;
+    border-radius: 50px;
+}
+.hui button:hover{
+    background-color: rgb(65, 6, 65);
+    color: #fff;
+    transition: .7s;
+}
+.hui button a{
+color: #ffffff;
+}
+.jitu{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+    padding-top: 50px;
+}
+.jitu a{
+    
+    color: beige;
+    width:50px;
+    height: 50px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.jitu a:hover{
+    color: rgb(19, 228, 158);
+    transition: .9s;
+    background-color: rgb(207, 35, 207);
+}
+.text-container {
+    position: relative;
+    overflow: hidden;
+    width: 200px; /* Adjust to your needs */
+    height: 50px; /* Adjust to your needs */
+    color: white;
+  }
+  
+  .text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 50px; /* Adjust to center the text vertically */
+    text-align: center;
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  /* Initial state for old text */
+  .old-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Initial state for new text */
+  .new-text {
+    opacity: 0;
+    transform: translateY(20px); /* Start slightly below the visible area */
+  }
+  
+  /* Animation for old text fading out and dropping */
+  .fade-out {
+    animation: dropFadeOut 1s forwards;
+  }
+  
+  /* Animation for new text fading in */
+  .fade-in {
+    animation: fadeIn 1s forwards;
+  }
+
+  .countElement{
+    font-size: 60px;
+    font-weight: 600;
+  }
+  
+  /* Keyframes for dropping and fading out */
+  @keyframes dropFadeOut {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(30px); /* Adjust to control drop distance */
+      opacity: 0;
+    }
+  }
+  
+  /* Keyframes for fading in */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px); /* Start slightly below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .twink{
+    padding-top: 100px;
+    color: #fff;
+  }
+  .App{
+    padding-top: 100px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+.App span {
+  color: #fff;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
